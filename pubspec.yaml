@@ -1,6 +1,6 @@
-name: redotpay_clone
-description: A Flutter app clone of RedotPay UI
-publish_to: 'none' # not published
+name: redotpay_fake
+description: تطبيق وهمي مشابه لـ RedotPay لعرض الرصيد وسجل المعاملات والتحويلات
+publish_to: 'none'
 version: 1.0.0+1
 
 environment:
@@ -9,11 +9,16 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+
+  # أيقونات وتنسيق
   cupertino_icons: ^1.0.2
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  flutter_lints: ^2.0.0
 
 flutter:
   uses-material-design: true
+  assets:
+    - assets/user.png
